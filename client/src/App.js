@@ -1,5 +1,7 @@
 import Home from './pages/Home'
 import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className='font-titleFont'>
      <Header />
      <Home />
+     <Footer />
     </div>
   );
 }
